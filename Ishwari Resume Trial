@@ -1,0 +1,98 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
+\usepackage{fontawesome5} % For modern icons
+\usepackage{academicons} % For academic icons
+\usepackage{hyperref} % For clickable links
+\usepackage{enumitem} % For customizing lists
+
+% Custom commands for tighter spacing
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+% Reduce spacing between items in lists
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+
+% Adjust section heading size
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{14}\selectfont}
+
+\name{Ishwari Mangesh Dhamdhere} % Your name
+\address{Boston, MA \quad \faIcon{phone} (201) 630-1092} % Address and phone number
+
+\address{\centering \faIcon{envelope} \href{mailto:dhamdhere.i@northeastern.edu}{dhamdhere.i@northeastern.edu} \quad 
+         \faIcon{linkedin} \href{https://www.linkedin.com/in/ishwari-dhamdhere/}{linkedin.com/in/ishwari-dhamdhere} \quad
+         \faIcon{github} \href{https://www.github.com/ishwari-dhamdhere}{github.com/ishwari-dhamdhere}} % Email, LinkedIn, and GitHub centered
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf Northeastern University}, Boston, MA \hfill {\bf Expected Dec 2025}\\
+Master of Science, Project Management
+
+{\bf Somaiya Vidyavihar University}, Mumbai, India \hfill {\bf May 2023}\\
+Bachelors in Business Management (Finance)
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% CERTIFICATIONS AND SKILLS    
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Certifications and Skills}
+\begin{itemize}
+    \item \textbf{Certified Scrum Master:} Certified Scrum Product Owner, SAP HANA FI, Certified Associate in Project Management
+    \item \textbf{Programming Languages:} Python, RStudio, Tableau
+    \item \textbf{Productivity Suite/Office Tools:} MS Office (Excel, Word, PowerPoint, SharePoint), Google Suite (Docs, Sheets, Slides)
+    \item \textbf{Methodologies and PM Tools:} Agile (Trello, JIRA, Scrum), Waterfall (MS Project), Confluence, Oracle Primavera
+    \item \textbf{Core Competencies:} Project Planning and Scheduling, Project Documentation, Project Budgeting, Project Monitoring
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE    
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+\textbf{Project Assistant} \hfill {\bf Jan 2023 - May 2023} \\
+New Jersey City University, Jersey City, NJ
+\begin{itemize}[label={$\triangleright$}]
+    \item Managed team of four, coordinated student information system using Trello, increasing task completion by 12%.
+    \item Created 25+ detailed cards for student services and registration procedures, ensuring project specifications were met.
+    \item Developed project plans, budgets, and timelines, ensuring high quality standards and protocol adherence.
+\end{itemize}
+
+\textbf{Project Intern} \hfill {\bf Sept 2022 - Dec 2022} \\
+Larsen \& Toubro, Mumbai, India
+\begin{itemize}[label={$\triangleright$}]
+    \item Managed and optimized 2 finance projects using advanced Excel functions, achieving 7% productivity increase.
+    \item Prepared detailed reports and presented updates using MS Word and MS Project, enhancing project visibility.
+    \item Conducted stakeholder meetings, reducing project risk by 20% and improving stakeholder satisfaction by 10%.
+\end{itemize}
+
+\textbf{Associate} \hfill {\bf Dec 2021 - Aug 2022} \\
+Fresh 365, Mumbai, India
+\begin{itemize}[label={$\triangleright$}]
+    \item Managed vendor communications, negotiated pricing, and ensured timely product delivery, achieving cost savings.
+    \item Enhanced inventory management processes through analytics and optimization, improving operational efficiency.
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+
+\textbf{AST SpaceMobile INC AssetTrak} \hfill {\bf Sept 2023}
+\begin{itemize}[label={$\triangleright$}]
+    \item Planned and executed web projects, managed project execution and stakeholder communication.
+    \item Integrated tracking software with IoT applications for seamless functionality and performance.
+\end{itemize}
+
+\textbf{Implementing JIRA for Principles of Agile, Northeastern University} \hfill {\bf Apr 2023 - Present}
+\begin{itemize}[label={$\triangleright$}]
+    \item Led Jira implementation to enhance Agile workflows and productivity, customized workflows and task boards.
+    \item Generated custom reports and compiled project documentation for efficient project management.
+\end{itemize}
+\end{rSection}
+
+\end{document}
