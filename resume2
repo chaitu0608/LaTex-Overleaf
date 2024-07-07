@@ -1,0 +1,105 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
+\usepackage{fontawesome5} % For modern icons
+\usepackage{academicons} % For academic icons
+\usepackage{hyperref} % For clickable links
+\usepackage{enumitem} % For customizing lists
+\usepackage{pifont} % For different bullet points
+
+% Custom commands for tighter spacing
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+% Reduce spacing between items in lists
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+
+% Adjust section heading size
+\usepackage{sectsty}
+\sectionfont{\fontsize{11}{13}\selectfont}
+
+% Adjust itemize bullet size
+\renewcommand{\labelitemi}{\small\textbullet}
+
+\name{Ishwari Mangesh Dhamdhere} % Your name
+
+\address{\centering \faIcon{envelope} \href{mailto:dhamdhere.i@northeastern.edu}{dhamdhere.i@northeastern.edu} \quad 
+         \faIcon{linkedin} \href{https://www.linkedin.com/in/ishwari-dhamdhere/}{linkedin.com/in/ishwari-dhamdhere} \quad
+         \faIcon{phone} (201) 630-1092} % Address and phone number} % Email, LinkedIn, and Phone centered
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf Northeastern University}, Boston, MA \hfill {\bf Sep 2023 - May 2025}\\
+Master of Science, Project Management
+
+{\bf Somaiya Vidyavihar University}, Mumbai, India \hfill {\bf July 2020 - May 2023}\\
+Bachelors in Business Management 
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Technical Skills}
+\begin{itemize}
+    \item \textbf{Analytical Tools:} RStudio, JIRA, Trello, Confluence, Smartsheets, Python, R programming, SAP HANA Fi
+    \item \textbf{Microsoft Office 365:} MS Excel (advanced), MS Projects, MS Word, MS PowerPoint, Monday.com
+    \item \textbf{Certificates:} Certified Scrum Product Owner, Certified Scrum Master, Certified Associate Project Management, SAP HANA Fico
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+\textbf{Assistant Project Manager, Administrative} \hfill {\bf Jan 2023 - June 2023} \\
+\textit{New Jersey City University, New Jersey, USA}
+\begin{itemize}
+    \item Orchestrated recruitment campaigns and campus events, employing Trello for task management and coordination, ensuring seamless execution and timely completion of recruitment activities
+    \item Implemented enhancements in admissions procedures, utilizing Slate for data management and workflow optimization, resulting in streamlined processes and improved efficiency
+    \item Fostered communication and collaboration among team members through Trello boards, facilitating transparency and effective coordination, ultimately enhancing productivity and teamwork
+    \item ⁠Support project manager in administrative task and participated in activities such as learning tools
+\end{itemize}
+
+\textbf{Project Management Intern, Finance} \hfill {\bf Sept 2022 - Dec 2022} \\
+\textit{Larsen \& Toubro, Mumbai, India}
+\begin{itemize}
+    \item Spearheaded the successful execution 2 finance-related projects, resulting in a 7\% increase in efficiency in project cost control and delivery timelines compared to previous years
+
+    \item Developed and implemented project management frameworks resulting in a 10\% improvement in on-time project delivery, meeting or exceeding stakeholder expectations consistently
+
+    \item Coordinated with business project manager to create and execute a project budgets using Microsoft Projects for a specific project, resulting in a 15\% reduction in project timeline
+
+    \item Conducted bi-weekly meetings with stakeholders to present updates, evaluate risks, ensure project delivery processes and project reporting standards resulting in a 20\% reduction in project risk and a 10\% increase in stakeholder satisfaction
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%   PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+
+\textbf{AST SpaceMobile INC}, \textit{AssetTrak} \hfill {\bf Jan 2024 - Present}
+
+\begin{itemize}
+    \item Planned and executed web projects, ensuring alignment with objectives, clear scope, and achievable goals.
+    \item Managed end-to-end project execution, including stakeholder analysis and critical project documentation.
+    \item Assisted in maintaining project timelines and prioritizing defects for timely resolution.
+    \item Collaborated on designing algorithms for satellite connectivity and asset tracking.
+    \item Oversaw the integration of tracking software with IoT applications.
+\end{itemize}
+
+\textbf{PowerOwl}, \textit{Academic Project, Team Member}\hfill {\bf Sept 2023 - May 2024}
+
+\begin{itemize}
+    \item Launched PowerOwl prototype for Enphase, employing project management skills and MS Project framework.
+    \item Developed a project lifecycle aligned with user-centered design methodologies.
+    \item Conducted risk assessments and implemented mitigation strategies.
+    \item Facilitated cross-functional team meetings to ensure alignment on project goals and milestones.
+\end{itemize}
+\end{rSection}
+
+\end{document}
